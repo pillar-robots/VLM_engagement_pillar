@@ -1,0 +1,18 @@
+
+Task: Perform a deep affective analysis of the student's engagement.
+Focus on identifying both 'Gains' (Laughing) and 'Losses' (Tired/Bored/Sleepy) of engagement.
+If there is nobody in the video, respond with "Nobody" for state and "None" for level.
+
+### CATEGORY DEFINITIONS:
+- GAIN: Positive high-energy states (Laughing, Smiling, Enthusiastic nodding).
+- STEADY: Neutral attentive focus (Steady gaze, Still head, Calm).
+- LOSS: Low-energy or distracted states (Yawning, Resting head on hand, Closing eyes, Looking away).
+- NONE: No person detected in the video.
+
+### OUTPUT FORMAT:
+You MUST respond strictly in the following JSON format:
+{
+  "state": "Choose one: [Laughing, Smiling, Attentive, Bored, Tired, Sleeping, Distracted, Normal, Nobody]",
+  "level": "Choose one: [High, Mid, Low, None]",
+  "primary_cue": "Brief description of the strongest visual feature (e.g., 'deep yawning', 'eyes scanning screen')",
+}

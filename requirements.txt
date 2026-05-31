@@ -1,0 +1,7 @@
+opencv-python==4.13.0.92
+torch==2.10.0
+torchcodec==0.10.0
+torchvision==0.25.0
+transformers==5.4.0
+qwen-vl-utils==0.0.14
+pandas==3.0.1
