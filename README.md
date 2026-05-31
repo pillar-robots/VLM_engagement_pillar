@@ -19,7 +19,7 @@ VLM wrapper to detect engagement using the webcam, for the PILLAR project.
 
 ```bash
 # git clone this repo
-git clone <REPO_PATH>.git
+git clone https://github.com/pillar-robots/VLM_engagement_pillar.git
 cd VLM_engagement_pillar/
 python3 -m pip install -r requirements.txt
 ```
